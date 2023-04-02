@@ -1,0 +1,9 @@
+displayName: HTTP Request Encryption
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/dewadg/traefik-plugin-encrypt
+
+summary: 'Encrypt request and response payload with AES-GCM with secret computed via ECDH key exchange.'
+
+testData: {}
